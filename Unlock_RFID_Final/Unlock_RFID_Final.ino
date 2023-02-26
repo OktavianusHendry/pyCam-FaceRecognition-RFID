@@ -64,8 +64,8 @@ void loop() {
     bleKeyboard.write(KEY_RETURN);
     delay(250);
 
-    Serial.println("Sending '011003'...");
-    bleKeyboard.print("011003");
+    Serial.println("Sending 'Password'...");
+    bleKeyboard.print("123456789"); //password
 
     delay(100);
 

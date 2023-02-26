@@ -48,9 +48,7 @@ while True:
             elif(ID != 0):
                 port.write(str.encode('0'))
                 print("sent 0")
-            # else:
-            #     port.write(str.encode('0'))
-            #     print("sent 0 ga ada orang")
+            
         frame = cv2.rectangle(frame, (x,y), (x+w,y+h),(0,255,255),4)
 
     cv2.imshow("Video",frame)
